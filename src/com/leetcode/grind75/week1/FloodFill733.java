@@ -14,7 +14,7 @@ public class FloodFill733 {
     }
 
     public void floodFill(int sr, int sc, int color, int newColor) {
-        if (sr < 0 || sc < 0 || sr >= newImage.length || sc >= newImage[0].length ) {
+        if (sr < 0 || sc < 0 || sr >= newImage.length || sc >= newImage[0].length) {
             return;
         }
         if (newImage[sr][sc] == color) {

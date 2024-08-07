@@ -33,7 +33,7 @@ public class BinarySearch704 {
 
     @Test
     public void test() {
-        assertEquals(4, search(new int[]{-1,0,3,5,9,12}, 9));
-        assertEquals(-1, search(new int[]{-1,0,3,5,9,12}, 2));
+        assertEquals(4, search(new int[]{-1, 0, 3, 5, 9, 12}, 9));
+        assertEquals(-1, search(new int[]{-1, 0, 3, 5, 9, 12}, 2));
     }
 }
